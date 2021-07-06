@@ -107,3 +107,64 @@ body {
 }
 
 /* about-me section end  */
+
+
+/* my-recipies section start  */
+.my-recipies {
+
+    margin: 100px 2%;
+}
+
+.recipie-content {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+.recipie-content .reci_hea {
+
+    font-size: 40px;
+    color: #4e4e4e;
+}
+
+.recipie-content .reci_para {
+
+    font-size: 16px;
+    line-height: 25px;
+}
+
+/* recipie-item  */
+.recipie-item {
+    display: flex;
+    justify-content: center;
+}
+
+.recipie {
+    width: 25%;
+    padding: 17px;
+    margin: 21px;
+    border-radius: 23px;
+    box-shadow: 0px 0px 28px -5px rgb(0 0 0 / 46%);
+}
+
+.recipie img {
+    width: 100%;
+    border-radius: 18px;
+}
+
+.re_item_hea {
+
+    margin: 23px 0;
+}
+
+.re_item_para {
+
+    font-size: 16px;
+
+    line-height: 1.5;
+
+    margin: 25px 0;
+}
+
+/* my-recipies section end  */
