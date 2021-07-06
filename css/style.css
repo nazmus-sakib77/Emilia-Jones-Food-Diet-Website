@@ -307,10 +307,35 @@ body {
     font-size: 36px;
     text-align: center;
 }
-
-
 /* category section end  */
 
+/* footer section start  */
+.footer {
+    padding: 10% 0;
+    background: #0A0D16;
+}
 
-    
-   
+.footer-content {
+
+    text-align: center;
+}
+
+.footer-content .fo_hea {
+
+    font-size: 40px;
+    color: #5B5B5B;
+}
+
+.footer-content .fo_hea_color {
+    background: linear-gradient(45deg, #FB9048, #FE4A2F);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.footer-content .fo_para {
+
+    color: white;
+    font-size: 18px;
+}
+
+/* footer section end  */
