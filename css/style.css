@@ -168,3 +168,35 @@ body {
 }
 
 /* my-recipies section end  */
+
+/* social-media section start  */
+.social-media {
+
+    margin: 0 7%;
+
+    margin-bottom: 100px;
+}
+
+.social-item {
+    display: flex;
+    border-radius: 23px;
+    box-shadow: 0px 0px 28px -7px rgb(0 0 0 / 46%);
+    padding: 10% 0;
+}
+
+.social {
+    width: 25%;
+    padding-left: 96px;
+}
+
+.social .so_hea {
+    font-size: 51px;
+    margin: 0;
+}
+
+.social .so_para {
+    font-size: 17px;
+    margin: 0;
+}
+
+/* social-media section end  */
