@@ -245,31 +245,72 @@ body {
 /* subscribe section end  */
 
 
-<!-- category section start  -->
-    <section class="category">
-        <div class="category-content">
-            <h1 class="cate_hea">Recipes By Category</h1>
-            <p class="cate_para">Search over 500+ whole food recipes by course, meat, or cuisine. Or scroll to discover the latest recipes from my best, most popular categories!</p>
 
-        </div>
-        <div class="category-item">
-            <div class="category-img">
-                <img src="image/category1.jpg" alt="category">
-                <h2 class="cate_h2">Sweets</h2>
-            </div>
-            <div class="category-img" id="img-mar">
-                <img src="image/category2.jpg" alt="category">
-                <h2 class="cate_h2">Burgers</h2>
-            </div>
-            <div class="category-img" id="img3-mar">
-                <img src="image/category-3.jpg" alt="category">
-                
-                <h2 class="cate_h2">Drinks</h2>
+/* category section start  */
+.category {
 
-            </div>
-        </div>
+    margin: 7%;
+}
 
-    </section>
+.category-content {
+
+    width: 57%;
+
+    text-align: center;
+
+    margin: 0 auto;
+
+    margin-bottom: 50px;
+}
+
+.category-content .cate_hea {
+
+    font-size: 38px;
+    color: #4e4e4e;
+}
+
+.category-content .cate_para {
+
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.category-item {
+
+    display: flex;
+    margin-left: 0px;
+}
+
+.category-item .category-img {
+    width: 32%;
+}
+
+#img-mar {
+
+    margin-left: 25px;
+}
+
+#img3-mar {
+
+    margin-left: 22px;
+}
+
+.category-item .category-img img {
+
+    width: 100%;
+    border-radius: 23px;
+    box-shadow: 0px 0px 28px -7px rgb(0 0 0 / 46%);
+}
+
+.category-item .category-img .cate_h2 {
+    margin-top: -70px;
+    font-size: 36px;
+    text-align: center;
+}
+
+
+/* category section end  */
+
 
     
-    <!-- category section end  -->
+   
